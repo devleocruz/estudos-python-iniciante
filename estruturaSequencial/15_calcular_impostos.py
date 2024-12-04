@@ -17,7 +17,7 @@ Obs.: Salário Bruto - Descontos = Salário Líquido.
 try:
   salario_por_hora = max(0, float(input("Quantos você ganha por hora (R$)?\n")))
   horas_trabalhadas = max(0, float(input("Quantas horas você trabalhou este mês?\n")))
-  # A função max() garante que o valor seja zero caso o usuário digita algum vnúmero negativo
+  # A função max() garante que o valor seja zero caso o usuário digita algum número negativo
 
   salario_bruto = salario_por_hora * horas_trabalhadas
   imposto_de_renda = salario_bruto * (11 / 100)
